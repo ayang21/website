@@ -280,7 +280,6 @@ code {
 }
 .contact-info{
   display: flex;
-  flex-direction: column;
   max-width: 80vw;
 }
 .resume-pdf{

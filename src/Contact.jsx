@@ -3,7 +3,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import styled from "styled-components";
-import phone from './imgs/phone-icon.svg';
 import github from './imgs/logo-github.svg';
 import linkedin from './imgs/logo-linkedin.svg';
 
@@ -39,14 +38,13 @@ const Contact = () => {
         <div className="scroll"></div>
       </div>
       <div className="contact-info">
-          <p><img className="text-img" src={phone} alt ="Phone number"/>: 617-999-6489</p>
           <p>
-          <img className="text-img" src={github} alt ="Github"/>: <a href="https://www.linkedin.com/in/adam-yang-4us/">
-                        www.linkedin.com/in/adam-yang-4us
+          <img className="text-img" src={linkedin} alt ="LinkedIn"/>: <a href="https://www.linkedin.com/in/adamyang25/">
+                        www.linkedin.com/in/adamyang25
                       </a>
           </p>
           <p>
-          <img className="text-img" src={linkedin} alt ="LinkedIn"/>: <a href="https://github.com/ayang21">github.com/ayang21</a>
+          <img className="text-img" src={github} alt ="GitHub"/>: <a href="https://github.com/ayang21">github.com/ayang21</a>
           </p>
       </div>
       <p>
