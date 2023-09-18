@@ -39,12 +39,10 @@ const Contact = () => {
       </div>
       <div className="contact-info">
           <p>
-          <img className="text-img" src={linkedin} alt ="LinkedIn"/>: <a href="https://www.linkedin.com/in/adamyang25/">
-                        www.linkedin.com/in/adamyang25
-                      </a>
+          <img className="text-img" src={linkedin} alt ="LinkedIn"/>: <a href="https://www.linkedin.com/in/adamyang25/"></a>
           </p>
           <p>
-          <img className="text-img" src={github} alt ="GitHub"/>: <a href="https://github.com/ayang21">github.com/ayang21</a>
+          <img className="text-img" src={github} alt ="GitHub"/>: <a href="https://github.com/ayang21"></a>
           </p>
       </div>
       <p>
