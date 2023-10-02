@@ -2,9 +2,9 @@
 > Welcome to my Personal Website. I plan on slowly improving the responsiveness and look of the website, but for now this is what I have deployed. If there are any improvements or suggestions, do not be afraid to open an issue with your idea!
 
 ## Sections :bookmark_tabs:
-:page_facing_up: Home\
-:page_facing_up: About me\
-:page_facing_up: Contact \
+:page_facing_up: Home :house_with_garden:\
+:page_facing_up: About me :ok_man:\
+:page_facing_up: Contact :iphone:
 
 ## Tools Used :hammer_and_wrench:
 * [<b>Netlify</b>](https://www.netlify.com/) - To host my website (HTML, CSS, JS, React).
