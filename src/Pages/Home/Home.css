@@ -1,0 +1,86 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+    /* Center the elements horizontally in the center */
+    align-items: center;
+    max-width: 80vw;
+    margin: 0 auto;
+    animation: text-entrance 1.5s ease-in 0s 1 normal forwards;
+    scroll-snap-align: start;
+}
+
+.intro-text{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background: #111111;
+    color: rgb(215,149,0);
+}
+
+.landing-text{
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background: rgb(215,149,0);
+    background: linear-gradient(45deg, rgba(215,149,0,1) 0%, rgba(236,229,155,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+  
+.scroll {
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgb(215,149,0);
+    border-radius: 50%;
+    animation: down 3s infinite;
+    -webkit-animation: down 3s infinite;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 15px;
+        left: 18px;
+        width: 18px;
+        height: 18px;
+        border-left: 2px solid rgb(215,149,0);
+        border-bottom: 2px solid rgb(215,149,0);
+        transform: rotate(-45deg);  
+    }
+}
+  
+.project-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project-gif{
+    border: solid 1px;
+    border-radius: 8vh;
+    box-shadow: 2px 2px 2px 2px grey;
+    margin: 8vh;
+    height: 70vh;
+}
+.project-gif:hover{
+    animation: gif-hover .25s ease-in 0s 1 normal forwards;
+}
+.project-gif:not(:hover){
+    animation: gif-unhover .4s ease-in 0s 1 normal forwards;
+}
+.project-gif:hover ~ .project-summary{
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+.project-summary{
+    visibility: hidden;
+    position: absolute;
+    border:3px solid black;
+}

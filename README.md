@@ -1,3 +1,21 @@
-You can check this website out at https://adamyang.netlify.app/. 
+# Personal Portfolio :scroll:
+> Welcome to my Personal Website. I plan on slowly improving the responsiveness and look of the website, but for now this is what I have deployed. If there are any improvements or suggestions, do not be afraid to open an issue with your idea!
 
-If there are any suggestions for my website, please post an issue in this github repository :). Anything is greatly appreciated!
+## Sections :bookmark_tabs:
+:page_facing_up: Home :house_with_garden:\
+:page_facing_up: About me :ok_man:\
+:page_facing_up: Contact :iphone:
+
+## Tools Used :hammer_and_wrench:
+* [<b>Netlify</b>](https://www.netlify.com/) - To host my website (HTML, CSS, JS, React).
+* [<b>Vanta.js</b>](https://www.vantajs.com/) - A JS framework that uses Three.js to create the responsive background.
+
+### Website SneakPeak :eyes:
+<p align="center"> 
+  <kbd>
+    <a href="https://adamyang.netlify.app/" target="_blank"><img src="public/website.gif">
+  </a>
+  </kbd>
+</p>
+
+## Thanks for checking it out! :wave:
