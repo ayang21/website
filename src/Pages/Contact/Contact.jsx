@@ -2,7 +2,8 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import styled from "styled-components";
 import github from '../../imgs/logo-github.svg';
-import linkedin from '../../imgs/football.gif';
+import linkedin from '../../imgs/logo-linkedin.svg';
+import './Contact.css';
 
 const Contact = () => {
   const form = useRef();
@@ -36,12 +37,12 @@ const Contact = () => {
         <div className="scroll"></div>
       </div>
       <div className="contact-info">
-          <p>
-          <img className="text-img" src={linkedin} alt ="LinkedIn"/>: <a href="https://www.linkedin.com/in/adamyang25/"></a>
-          </p>
-          <p>
-          <img className="text-img" src={github} alt ="GitHub"/>: <a href="https://github.com/ayang21"></a>
-          </p>
+        <div className="contact-item">
+        <img className="text-img" src={linkedin} alt ="LinkedIn"/>:<a href="https://www.linkedin.com/in/adamyang25/">linkedin.com/in/adamyang25/</a>
+        </div>
+        <div className="contact-item">
+        <img className="text-img" src={github} alt ="GitHub"/>:<a href="https://github.com/ayang21">github.com/ayang21</a>
+        </div>
       </div>
       <p>
         If you have any questions or concerns, please feel free to contact us
