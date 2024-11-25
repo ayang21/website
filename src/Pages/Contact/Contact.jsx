@@ -1,5 +1,3 @@
-//Create a home page for the website that contains the navbar from Nav.js and a footer from Footer.js as well as a welcome message all using react
-
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import styled from "styled-components";

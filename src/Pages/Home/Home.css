@@ -8,16 +8,24 @@
     animation: text-entrance 1.5s ease-in 0s 1 normal forwards;
     scroll-snap-align: start;
 }
+.landing-container{
+    background-color: #111111;
+}
 
-.intro-text{
+.intro-text-container{
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100vw;
-    background: #111111;
     color: rgb(215,149,0);
+}
+.intro-text{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 10vw;
 }
 
 .landing-text{

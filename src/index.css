@@ -77,16 +77,6 @@ code {
     monospace;
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 6vh;
-  bottom: 0;
-  width: 100%;
-}
-
-
 .press-esc {
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -160,22 +150,6 @@ code {
 }
 .Nav-header.on-white-bg{
   color: black;
-}
-
-/* Style the footer list items */
-.footer__container a{
-  margin: 0;
-  padding: 0;
-}
-.footer__container a:hover{
-  background-color: #d1d1d1;
-  border-radius: 5px;
-}
-.footer__container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 6vh;
 }
 
 /* Style the About page */
