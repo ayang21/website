@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the footer list items */
+.footer__container a{
+    margin: 0;
+    padding: 0;
+}
+.footer__container a:hover{
+    background-color: #d1d1d1;
+    border-radius: 5px;
+}
+
+.footer__logo {
+    width: 30px;
+    height: 30px;
+}
