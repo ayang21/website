@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App/App';
 import reportWebVitals from './reportWebVitals';
-import Nav from './Pages/Nav';
-import Footer from './Pages/Footer';
+import Nav from './Pages/Nav/Nav';
+import Footer from './Pages/Footer/Footer';
 import Home from './Pages/Home/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

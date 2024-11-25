@@ -1,10 +1,10 @@
-import Footer from "./Footer";
+import Footer from "../Footer/Footer";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Home from "./Home/Home";
-import About from "./About/About";
-import Contact from "./Contact/Contact";
-import logo from '../imgs/logo-transparent-dark.svg';
+import Home from "../Home/Home";
+import About from "../About/About";
+import Contact from "../Contact/Contact";
+import logo from '../../imgs/logo-transparent-dark.svg';
 
 function Nav() {
     return (
